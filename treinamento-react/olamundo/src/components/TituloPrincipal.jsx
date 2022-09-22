@@ -1,13 +1,33 @@
-import react from "react";
+import React, { useEffect, useState } from "react";
 
 function TituloPrincipal(props) {
-   let titulo = "Olá, mundo!";
+   let [titulo, setTitulo] = useState(props.titulo ?? "Ola mundo");
 
-   if (props.titulo) {
-      titulo = props.titulo;
+   useEffect(() => {
+      console.log("Titulo mudou")
+   }, [titulo])
+
+   function clickCallBack(event) {
+      alert("Obrigado por clicar em mim")
    }
 
-   return <h1>{titulo}</h1>
+
+   function handleChangeTitle(event) {
+
+      console.log(event.target.value);
+      setTitulo(event.target.value);
+   }
+
+
+   return (
+      <>
+         <h1 onClick={clickCallBack}>{titulo}</h1>
+         <input type="text"
+            onChange={handleChangeTitle}>
+
+         </input>
+      </>
+   )
 }
 
 export default TituloPrincipal;
