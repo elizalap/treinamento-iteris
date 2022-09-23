@@ -3,14 +3,14 @@
 Treinamento de React da trilha de aprendizado para o Hackathon Decola Gemini da Iteris.
 
 
-Tópicos abordados
+Tópicos abordados:
 
-- Introdução ao React
-- Estruturas básicas como Componentes e Hooks
-- Criação de Rotas
+- Introdução ao React.
+- Estruturas básicas como Componentes e Hooks.
+- Criação de Rotas.
 - Consumo de API através do Axios.
-- Componentes do Material UI
+- Componentes do Material UI.
 
 Desafios de código
- 
-- Botão contador de compartilhamentos;
+
+- Botão contador de compartilhamentos.
