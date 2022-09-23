@@ -1,6 +1,6 @@
 # Introdução ao Desenvolvimento com React
 
-## Treinamento de React da trilha de aprendizado para o Hackathon Decola Gemini da Iteris.
+Treinamento de React da trilha de aprendizado para o Hackathon Decola Gemini da Iteris.
 
 
 Tópicos abordados
