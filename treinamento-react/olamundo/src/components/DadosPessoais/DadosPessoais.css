@@ -1,0 +1,13 @@
+h1 {
+   font-size: 35px;
+   font-family: fantasy;
+   color: #222222;
+}
+
+p {
+   text-align: center;
+}
+
+hr {
+   width: 40%;
+}

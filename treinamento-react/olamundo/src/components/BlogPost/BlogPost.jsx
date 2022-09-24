@@ -15,10 +15,6 @@ function BlogPost(props) {
    }
    function checkboxChangeBack(event) {
       const novoValorExibirImagem = !post.exibirImagem;
-      // verifique o que acontece se não chamarmos o setPost
-      // é um erro comum, que você vai fazer bastante
-      // precisamos informar a atualização, para o react renderizar novamente
-      // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax
       setPost({ ...post, exibirImagem: novoValorExibirImagem });
    }
    let imgTag = <div></div>;

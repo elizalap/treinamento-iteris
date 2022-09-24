@@ -1,9 +1,9 @@
-import BlogPage from "./components/BlogPage";
+import CurriculoVitae from "./components/CurriculoVitae/CurriculoVitae";
 
 function App() {
   return (
     <div>
-      <BlogPage></BlogPage>
+      <CurriculoVitae></CurriculoVitae>
     </div>
   )
 }

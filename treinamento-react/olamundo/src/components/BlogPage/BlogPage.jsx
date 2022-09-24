@@ -1,6 +1,7 @@
 import React from "react";
 import BlogPostModel from "../../models/BlogPostModel";
 import BlogPost from "../BlogPost";
+
 function BlogPage() {
    let listaDePostagens = [];
    listaDePostagens.push(
