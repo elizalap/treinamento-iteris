@@ -13,4 +13,5 @@ Tópicos abordados:
 
 Desafios de código
 
-- Botão contador de compartilhamentos.
+- Botão contador de compartilhamentos :white_check_mark: 
+- Curriculum Vitae :white_check_mark: 
