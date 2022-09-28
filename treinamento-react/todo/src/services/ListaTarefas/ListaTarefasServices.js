@@ -22,3 +22,19 @@ function adicionar(listaDeTarefas, descricaoTarefa) {
    //spread operator: "...listaDeTarefas"
    return [...listaDeTarefas, novaTarefa]
 }
+
+function editar(listaDeTarefas, tarefa) {
+   //atualiza o campo concluida e cria um objeto novo
+   const tarefaAtualizada = { ...tarefa, concluida: !tarefa.concluida };
+
+   //criar uma lista nova e atualizar a tarefa antiga
+   const ListaAtualizada = listaDeTarefas.map((x) => {
+      if (x.id !== tarefa.id) {
+         return x;
+      } else {
+         return tarefaAtualizada;
+      }
+   });
+
+   return ListaAtualizada;
+}
